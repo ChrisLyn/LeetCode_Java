@@ -1,3 +1,5 @@
+import java.util.*;
+
 class StrStr {
     public int strStr(String haystack, String needle) {
         if(haystack.length()==0 && needle.length()==0)

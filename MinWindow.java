@@ -1,3 +1,5 @@
+import java.util.*;
+
 class MinWindow {
     public String minWindow(String s, String t) {
         if (s == null || t == null || t.length() == 0 || t.length() > s.length()) {
